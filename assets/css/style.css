@@ -1,0 +1,188 @@
+@import url(../css/reset.css);
+
+header.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 605px;
+    width: auto;
+    background-color: #0e2a36;
+    background-image: url('../images/banner.png'), linear-gradient(#000000, #31a9dd3f 50%, #000000e8);
+    box-shadow: 0 0 50px 50px;
+    transition: 1s;
+    border-bottom: 1px solid #31A8DD;
+}
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    transition: 1s;
+}
+.banner-content h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-content p {
+    width: 510px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.banner-content button {
+    text-transform: uppercase;
+    display: flex;
+    width: 326px;
+    padding: 19px 91px;
+    justify-content: center;
+    align-items: center;
+    gap: 31px;
+    border: 2px solid #3BA1CD;
+    cursor: pointer;
+    background-color: transparent;
+    color: #31A8DD;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    transition: .5s;
+}
+.banner-content button:hover {
+    color: #ffffff;
+    font-size: 17px;
+    background-color: #31A8DD;
+}
+.logo {
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    background-color: #0000001e;
+    border-radius: 300px;
+}
+.logo img{
+    padding-top: 15px;
+}
+/*----------------------Main---------------------------*/
+main {
+    background-color: #000000;
+}
+#course-content {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin: 5%;
+}
+#course-content h2, span{
+    color: #33A8DB;
+}
+#course-content h2 {
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 37px;
+    font-weight: 700;
+}
+#course-content p {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    width: 70%;
+    text-align: center;
+}
+.modules-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.module {
+    display: flex;
+    justify-content: center;
+    width: 535px;
+    border-radius: 57px;
+    border: 1px solid #33A8DB;
+    background: #252525;
+    box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.40) inset;
+}
+#course-content .module p {
+    font-size: 14px;
+    padding: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+/*---------------transform-world------------------*/
+#transform-world {
+    background-image: url('../images/woman-code.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 -15px;
+    height: 363px;
+    display: flex;
+    border: 1px solid #31A8DD;
+}
+#transform-world p {
+    font-size: 40px;
+    line-height: 46px;
+    font-weight: 900;
+    text-shadow: 3px 2px #33A8DB;
+    text-transform: lowercase;
+    width: 250px;
+    margin-left: 150px;
+    margin-top: 115px;
+}
+/*-----------------professional-challenges----------------*/
+#professional-challenges {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #31A8DD;
+}
+#professional-challenges h2 {
+    width: 800px;
+    color: #33A8DB;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6.08px;
+}
+#professional-challenges p {
+    width: 800px;
+    text-align: center;
+}
+/*------------------footer-------------------------------*/
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    background-color: #000000;
+    background-image: linear-gradient(#33A8DB00, #33a9db13);
+    height: 170px;
+}
+footer a {
+    text-decoration: none;
+    color: #33A8DB;
+    padding-left: 6px;
+}
